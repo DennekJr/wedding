@@ -1,0 +1,61 @@
+.ourStoryContainer {
+  padding-top: 82px !important;
+  padding-bottom: 93px !important;
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-3.jpg?id=10128") !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourStoryContainer h2 {
+    color: #4a3e5a;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    line-height: 62px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
+    letter-spacing: .05em;
+}
+
+.ourStoryDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 18px;
+}
+
+.ourStoryDivider span {
+    font-size: 50px;
+}
+
+.ourStoryDivider span, hr {
+    color: #4a3e5a;
+}
+
+.ourStoryDivider hr {
+    width: 50px;
+}
+
+.ourStoryContainer h4 {
+    text-align: center;
+    font-size: 12px;
+    color: #656565;
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    line-height: 1.85em;
+    margin: 0;
+}
+
+.ourStoryParagraph {
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 15px;
+    line-height: 1.7333em;
+    color: #808080;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
+}

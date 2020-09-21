@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.homeBanner {
+  min-height: 100vh;
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-1.jpg");
+  height: 661px;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navBarContainer hr {
+  opacity: 0.2;
+}
+
+.navBar {
+  padding: 20px 50px;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+
+.homeBannerText {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeBannerText h1 {
+  line-height: 97px;
+  font-weight: 300;
+  font-size: 87px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.homeBannerText h4 {
+  line-height: 42px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divider hr {
+  width: 50px;
+}
+
+.divider span {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}

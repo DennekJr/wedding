@@ -1,0 +1,29 @@
+.dateContainer {
+  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-parallax-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-position: 50% 38px;
+    padding: 15% 0 16%;
+  /*padding-top: 82px !important;*/
+  /*padding-bottom: 93px !important;*/
+    padding-left: 11% !important;
+}
+
+.dateContainer h1 {
+    line-height: 84px;
+    font-weight: 300;
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.dateContainer span {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    line-height: 1.85em;
+}

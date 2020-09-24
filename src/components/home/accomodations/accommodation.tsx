@@ -16,11 +16,12 @@ export const Accommodation = () => {
       <p>sunsset Blvd NY</p>
       <p>(631)555 - 0123</p>
       <img
-        width="757"
-        height="163"
+        // width="757"
+        // height="163"
         src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-4.png"
         className="accommodationImage"
         alt="a"
+        style={{width: '50%'}}
       />
     </div>
   );

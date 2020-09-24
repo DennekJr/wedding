@@ -30,3 +30,14 @@
     color: #ffffff;
     text-align: left;
 }
+
+@media (max-width: 800px) {
+    .returnContainer h2 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .returnContainer h2 {
+        font-size: 35px;
+    }
+}

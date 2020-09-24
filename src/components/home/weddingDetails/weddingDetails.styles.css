@@ -747,3 +747,35 @@ hr {
     opacity: 1;
 }
 
+@media (max-width: 800px) {
+    .WeddingDetailsBody {
+        width: 100%;
+    }
+    .firstRow, .secondRow, .thirdRow, .fourthRow {
+        max-width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .weddingDetailsContainer h2 {
+        font-size: 30px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 400px) {
+    .weddingDetailsContainer h2 {
+        font-size: 25px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 12px;
+    }
+
+    .row1Images, .row2Images, .row3Image, .row4Images {
+        padding: 0 40px;
+    }
+
+    .rowTexts, .row2Texts, .row3Texts, .row4Texts {
+        padding: 0 13px;
+    }
+}

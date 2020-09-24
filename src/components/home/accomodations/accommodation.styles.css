@@ -1,0 +1,68 @@
+.accommodationContainer {
+    padding-top: 114px !important;
+    background-color: #e0dbe3 !important;
+    text-align: center;
+    /*margin-left: -15px;*/
+    /*margin-right: -15px;*/
+}
+
+.accommodationContainer h2 {
+    color: #4a3e5a;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    line-height: 62px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
+    letter-spacing: .05em;
+}
+
+.accommodationDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 18px;
+}
+
+.accommodationDivider span {
+    font-size: 50px;
+}
+
+.accommodationDivider span, hr {
+    color: #4a3e5a;
+}
+
+.accommodationDivider hr {
+    width: 50px;
+}
+
+.accommodationContainer h4 {
+    font-size: 18px;
+    color: #656565;
+    font-family: "Playfair Display",serif;
+    font-style: italic;
+    line-height: 1.85em;
+    margin: 0;
+}
+
+.hotel {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-family: "Raleway",sans-serif;
+    margin-top: 32px;
+}
+
+.accommodationContainer p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.7333em;
+    color: grey;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
+}
+

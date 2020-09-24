@@ -4,9 +4,9 @@
 }
 
 .homeBanner {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-1.jpg");
-  height: 661px;
+  height: 1061px;
   background-position: 50% 0;
   background-repeat: no-repeat;
     background-attachment: fixed;

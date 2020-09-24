@@ -1,0 +1,9 @@
+.footerContainer {
+    padding-top: 82px !important;
+    padding-bottom: 93px !important;
+    display: block;
+    background-color: #3a3740;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}

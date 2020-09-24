@@ -4,6 +4,9 @@ import { OurStory } from "./ourStory/ourStory";
 import { Date } from "./date/date";
 import {WeddingDetails} from "./weddingDetails/weddingDetails";
 import {Reception} from "./reception/reception";
+import {Photos} from "./photos/photos";
+import {Accommodation} from "./accomodations/accommodation";
+import {Footer} from "./homeFooter/footer";
 
 export const Home = () => {
   return (
@@ -29,6 +32,9 @@ export const Home = () => {
       <Date date="September 5th, 2020" name="Save the date" />
       <WeddingDetails />
       <Reception />
+      <Photos />
+      <Accommodation />
+      <Footer />
     </div>
   );
 };

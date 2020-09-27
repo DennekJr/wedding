@@ -1,10 +1,10 @@
 import React from "react";
-import './reception.styles.css';
+import './interlude.styles.css';
 
-export const Reception = () => {
+export const Interlude = () => {
     return (
         <div className="returnContainer">
-            <h2>Reception</h2>
+            <h2>#SKlovestory</h2>
             <h4>December 12th, 2020</h4>
         </div>
     )

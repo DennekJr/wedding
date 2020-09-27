@@ -73,24 +73,24 @@ export const Photos = () => {
       <div className="imageGrid">
         <div className="gridRow">
           <div>
-            <img src='/images/image1.jpeg' alt="Fourth Image" />
+            <img src='/images/image1.jpg' alt="Fourth Image" />
           </div>
           <div>
-            <img src={'/images/image2.jpeg'} alt="Fifth Image" />
+            <img src={'/images/image2.jpg'} alt="Fifth Image" />
           </div>
           <div>
-            <img src={'/images/image3.jpeg'} alt="Third Image" />
+            <img src={'/images/image3.jpg'} alt="Third Image" />
           </div>
         </div>
         <div className="gridRow">
           <div>
-            <img src={'/images/image4.jpeg'} alt="First Image" />
+            <img src={'/images/image4.jpg'} alt="First Image" />
           </div>
           <div>
-            <img src={'/images/image5.jpeg'} alt="Second Image" />
+            <img src={'/images/image5.jpg'} alt="Second Image" />
           </div>
           <div>
-            <img src={'/images/image6.jpeg'} alt="Sixth Image" />
+            <img src={'/images/image6.jpg'} alt="Sixth Image" />
           </div>
         </div>
         <div className="gridRow">

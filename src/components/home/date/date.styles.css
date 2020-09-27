@@ -1,11 +1,10 @@
 .dateContainer {
-  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-parallax-1.jpg");
+  background-image: url('/images/wedding_details.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-  background-position: 50% 38px;
+    background-size: cover;
+    /*background-position: center;*/
     padding: 15% 0 16%;
-  /*padding-top: 82px !important;*/
-  /*padding-bottom: 93px !important;*/
     padding-left: 11% !important;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .dateContainer span {
-    font-size: 18px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     font-family: "Playfair Display",serif;
     font-style: italic;

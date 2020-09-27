@@ -312,6 +312,9 @@ hr {
     opacity: 1;
 }
 
+.text .details, .text2 .details{
+    font-weight: bold;
+}
 .secondRow {
     font-family: Raleway,sans-serif;
     letter-spacing: 0;

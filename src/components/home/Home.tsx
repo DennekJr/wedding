@@ -1,12 +1,13 @@
 import React from "react";
 import "./home.styles.css";
-import { OurStory } from "./ourStory/ourStory";
+import { BrideStory } from "./ourStory/BrideStory";
 import { Date } from "./date/date";
-import {WeddingDetails} from "./weddingDetails/weddingDetails";
-import {Reception} from "./reception/reception";
-import {Photos} from "./photos/photos";
-import {Accommodation} from "./accomodations/accommodation";
-import {Footer} from "./homeFooter/footer";
+import { WeddingDetails } from "./weddingDetails/weddingDetails";
+import { Reception } from "./reception/reception";
+import { Photos } from "./photos/photos";
+import { GroomStory } from "./ourStory/GroomStory";
+import { MaidManStory } from "./ourStory/MaidManStory";
+import { Interlude } from "./interlude/interlude";
 
 export const Home = () => {
   return (
@@ -25,16 +26,18 @@ export const Home = () => {
             <span>.</span>
             <hr />
           </div>
-          <h4>June & Jack</h4>
+          <h4>Kuchy & Suggy</h4>
         </div>
       </div>
-      <OurStory />
-      <Date date="September 5th, 2020" name="Save the date" />
-      <WeddingDetails />
+      <BrideStory />
+      <Date date="December 12th, 2020" name="Save the date" />
+      <GroomStory />
       <Reception />
+      <MaidManStory />
+      <Interlude />
+      <WeddingDetails />
       <Photos />
-      <Accommodation />
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 };

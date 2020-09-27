@@ -11,20 +11,12 @@ export const WeddingDetails = () => {
           <span>.</span>
           <hr />
         </div>
-        <h4>
-          Lorem ipsum dolor sit amet, consectetuer gravida nibh vel velit auctor
-          aliquet. Aenean sollicitudin, lorem quis bibendum auci elit
-          <br /> consequat ipsutis sem niuis sed odio sit amet
-        </h4>
       </div>
       <div className="WeddingDetailsBody">
         <div className="workflow">
-          <span
-    className="mainLine"
-    style={{backgroundColor: "#dee0e0"}}
-    />
+          <span className="mainLine" style={{ backgroundColor: "#dee0e0" }} />
           <div className="firstRow">
-            <span className="line"/>
+            <span className="line" />
             <div className="innerFirstRow">
               <div className="row1Images">
                 <img
@@ -36,11 +28,13 @@ export const WeddingDetails = () => {
                 />
               </div>
               <div className="rowTexts">
-                <span className="circle"/>
-                <h4>Ceremony</h4>
+                <span className="circle" />
+                <h4>CHURCH SERVICE</h4>
                 <p className="text">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
+                  <span className='details'>Location:</span> Ekklesiyar Yan'uwa A Nigeria (EYN) opposite CBN estate,
+                  Utako, Abuja.<br/>
+                  <span className='details'>Time:</span> 12pm.
                 </p>
               </div>
             </div>
@@ -59,10 +53,11 @@ export const WeddingDetails = () => {
               </div>
               <div className="row2Texts">
                 <span className="circle"></span>
-                <h4>Toast &amp; Dinner</h4>
+                <h4>RECEPTION</h4>
                 <p className="text2">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
+                  <span className='details'>Location:</span> Le Finesse Event Centre opposite EFAB Global Estate Utako, Abuja.<br/>
+                  <span className='details'>Time:</span> 2pm.
                 </p>
               </div>
             </div>
@@ -81,10 +76,9 @@ export const WeddingDetails = () => {
               </div>
               <div className="row3Texts">
                 <span className="circle"></span>
-                <h4>Wedding Cake</h4>
+                <h4>COLORS</h4>
                 <p className="text3">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  Peach, Burgundy and Navy Blue.
                 </p>
               </div>
             </div>
@@ -103,10 +97,9 @@ export const WeddingDetails = () => {
               </div>
               <div className="row4Texts">
                 <span className="circle"></span>
-                <h4>Photography</h4>
+                <h4>RSVP</h4>
                 <p className="text4">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum.
+                  08161266200, 07068347701
                 </p>
               </div>
             </div>

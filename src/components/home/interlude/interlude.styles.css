@@ -5,10 +5,12 @@
     background-position: 50% 20%!important;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url('/images/reception.jpg');
+    background-image: url('/images/lovestory.jpg');
     padding-left: 11% !important;
 }
-
+.reception{
+    background-image: url('/images/reception.jpg');
+}
 .returnContainer h2 {
     font-family: "Raleway", sans-serif;
     font-size: 70px;

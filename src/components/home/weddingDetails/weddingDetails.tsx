@@ -22,7 +22,7 @@ export const WeddingDetails = () => {
                 <img
                   width="119"
                   height="118"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-1.png"
+                  src="images/home-announcement-icon-1.png"
                   className="firstImg"
                   alt="a"
                 />
@@ -46,7 +46,7 @@ export const WeddingDetails = () => {
                 <img
                   width="107"
                   height="138"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-2.png"
+                  src="images/home-announcement-icon-2.png"
                   className="secondImg"
                   alt="a"
                 />
@@ -69,7 +69,7 @@ export const WeddingDetails = () => {
                 <img
                   width="125"
                   height="116"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-3.png"
+                  src="images/home-announcement-icon-3.png"
                   className="thirdImage"
                   alt="a"
                 />
@@ -90,7 +90,7 @@ export const WeddingDetails = () => {
                 <img
                   width="117"
                   height="80"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-4.png"
+                  src="images/home-announcement-icon-4.png"
                   className="fourthImage"
                   alt="a"
                 />

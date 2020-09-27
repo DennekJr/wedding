@@ -82,7 +82,7 @@ export const Photos = () => {
           </div>
           <div>
             <img
-              src={"/images/image11.jpg"}
+              src={"/images/image2.jpg"}
               alt="Second Image"
               width={400}
               height={600}
@@ -152,7 +152,15 @@ export const Photos = () => {
         <div className="gridRow">
           <div>
             <img
-              src={"/images/image12.jpg"}
+              src={"/images/image15.jpg"}
+              alt="Fifth Image"
+              width={400}
+              height={600}
+            />
+          </div>
+          <div>
+            <img
+              src={"/images/image13.jpg"}
               alt="Sixth Image"
               width={400}
               height={500}
@@ -160,7 +168,7 @@ export const Photos = () => {
           </div>
           <div>
             <img
-              src={"/images/image2.jpg"}
+              src={"/images/image14.jpg"}
               alt="Fifth Image"
               width={400}
               height={500}

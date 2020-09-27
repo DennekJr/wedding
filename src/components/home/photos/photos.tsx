@@ -14,25 +14,22 @@ export const Photos = () => {
       <div className="imageGrid">
         <div className="gridRow">
           <div>
-            <img src="/images/image1.jpeg" alt="first" />
+            <img src="/images/image1.jpg" alt="first" />
           </div>
           <div>
-            <img src={"/images/image2.jpeg"} alt="second" />
+            <img src={"/images/image2.jpg"} alt="second" />
           </div>
           <div>
-            <img src={"/images/image3.jpeg"} alt="Third" />
+            <img src={"/images/image3.jpg"} alt="Third" />
           </div>
           <div>
-            <img src={"/images/image4.jpeg"} alt="fourth" />
+            <img src={"/images/image4.jpg"} alt="fourth" />
           </div>
           <div>
-            <img src={"/images/image5.jpeg"} alt="fifth" />
+            <img src={"/images/image5.jpg"} alt="fifth" />
           </div>
           <div>
-            <img src={"/images/image6.jpeg"} alt="Sixth" />
-          </div>
-          <div>
-            <img src={"/images/image7.jpg"} alt="seventh" />
+            <img src={"/images/image6.jpg"} alt="Sixth" />
           </div>
           <div>
             <img src={"/images/image8.jpg"} alt="eight" />
@@ -42,30 +39,21 @@ export const Photos = () => {
           </div>
           <div>
             <img src={"/images/image10.jpg"} alt="tenth" />
-            <img
-              src={"/images/image15.jpg"}
-              alt="Fifth Image"
-              width={400}
-              height={600}
-            />
           </div>
           <div>
             <img src={"/images/image11.jpg"} alt="eleventh" />
-            <img
-              src={"/images/image13.jpg"}
-              alt="Sixth Image"
-              width={400}
-              height={500}
-            />
           </div>
           <div>
             <img src={"/images/image12.jpg"} alt="twelfth" />
-            <img
-              src={"/images/image14.jpg"}
-              alt="Fifth Image"
-              width={400}
-              height={500}
-            />
+          </div>
+          <div>
+            <img src={"/images/image15.jpg"} alt="fifteenth" />
+          </div>
+          <div>
+            <img src={"/images/image14.jpg"} alt="fourteenth" />
+          </div>
+          <div>
+            <img src={"/images/image13.jpg"} alt="thirteenth" />
           </div>
         </div>
       </div>

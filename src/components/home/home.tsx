@@ -8,6 +8,7 @@ import { Photos } from "./photos/photos";
 import { GroomStory } from "./ourStory/GroomStory";
 import { MaidManStory } from "./ourStory/MaidManStory";
 import { Interlude } from "./interlude/interlude";
+// import {Footer} from "./homeFooter/footer";
 
 export const Home = () => {
   return (

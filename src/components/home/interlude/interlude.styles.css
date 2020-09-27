@@ -30,3 +30,21 @@
     color: #ffffff;
     text-align: left;
 }
+
+@media (max-width: 800px) {
+    .returnContainer h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .imageGrid img {
+        width: 250px;
+    }
+
+    .returnContainer h2 {
+        font-size: 25px;
+    }
+    .returnContainer h4 {
+        font-size: 20px;
+    }
+}

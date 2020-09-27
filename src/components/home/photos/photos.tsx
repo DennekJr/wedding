@@ -41,13 +41,13 @@ export const Photos = () => {
             <img src={"/images/image10.jpg"} alt="tenth" />
           </div>
           <div>
+            <img src={"/images/image15.jpg"} alt="fifteenth" />
+          </div>
+          <div>
             <img src={"/images/image11.jpg"} alt="eleventh" />
           </div>
           <div>
             <img src={"/images/image12.jpg"} alt="twelfth" />
-          </div>
-          <div>
-            <img src={"/images/image15.jpg"} alt="fifteenth" />
           </div>
           <div>
             <img src={"/images/image14.jpg"} alt="fourteenth" />

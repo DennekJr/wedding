@@ -73,46 +73,98 @@ export const Photos = () => {
       <div className="imageGrid">
         <div className="gridRow">
           <div>
-            <img src='/images/image1.jpg' alt="Fourth Image" />
+            <img
+              src="/images/image1.jpg"
+              alt="Fourth Image"
+              width={400}
+              height={600}
+            />
           </div>
           <div>
-            <img src={'/images/image2.jpg'} alt="Fifth Image" />
+            <img
+              src={"/images/image11.jpg"}
+              alt="Second Image"
+              width={400}
+              height={600}
+            />
           </div>
           <div>
-            <img src={'/images/image3.jpg'} alt="Third Image" />
-          </div>
-        </div>
-        <div className="gridRow">
-          <div>
-            <img src={'/images/image4.jpg'} alt="First Image" />
-          </div>
-          <div>
-            <img src={'/images/image5.jpg'} alt="Second Image" />
-          </div>
-          <div>
-            <img src={'/images/image6.jpg'} alt="Sixth Image" />
-          </div>
-        </div>
-        <div className="gridRow">
-          <div>
-            <img src={'/images/image7.jpg'} alt="First Image" />
-          </div>
-          <div>
-            <img src={'/images/image8.jpg'} alt="Second Image" />
-          </div>
-          <div>
-            <img src={'/images/image9.jpg'} alt="Sixth Image" />
+            <img
+              src={"/images/image3.jpg"}
+              alt="Third Image"
+              width={400}
+              height={600}
+            />
           </div>
         </div>
         <div className="gridRow">
           <div>
-            <img src={'/images/image10.jpg'} alt="First Image" />
+            <img
+              src={"/images/image4.jpg"}
+              alt="First Image"
+              width={400}
+              height={600}
+            />
           </div>
           <div>
-            <img src={'/images/image11.jpg'} alt="Second Image" />
+            <img
+              src={"/images/image5.jpg"}
+              alt="Second Image"
+              width={400}
+              height={600}
+            />
           </div>
           <div>
-            <img src={'/images/image12.jpg'} alt="Sixth Image" />
+            <img
+              src={"/images/image6.jpg"}
+              alt="Sixth Image"
+              width={400}
+              height={600}
+            />
+          </div>
+        </div>
+        <div className="gridRow">
+          <div>
+            <img
+              src={"/images/image8.jpg"}
+              alt="Second Image"
+              width={400}
+              height={600}
+            />
+          </div>
+          <div>
+            <img
+              src={"/images/image9.jpg"}
+              alt="Sixth Image"
+              width={400}
+              height={600}
+            />
+          </div>
+          <div>
+            <img
+              src={"/images/image10.jpg"}
+              alt="First Image"
+              width={400}
+              height={600}
+            />
+          </div>
+        </div>
+        <div className="gridRow">
+          <div>
+            <img
+              src={"/images/image12.jpg"}
+              alt="Sixth Image"
+              width={400}
+              height={500}
+            />
+          </div>
+          <div>
+            <img
+              src={"/images/image2.jpg"}
+              alt="Fifth Image"
+              width={400}
+              height={500}
+            />
           </div>
         </div>
       </div>

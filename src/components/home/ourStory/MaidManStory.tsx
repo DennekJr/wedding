@@ -34,7 +34,7 @@ export const MaidManStory = () => {
           Congrats my beautiful people.
           <br />
           <br />
-          #TheSKlovestory.
+          #SKlovestory.
         </p>
 
         <h2>

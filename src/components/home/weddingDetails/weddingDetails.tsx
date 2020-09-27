@@ -56,7 +56,7 @@ export const WeddingDetails = () => {
                 <h4>RECEPTION</h4>
                 <p className="text2">
                   <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
-                  <span className='details'>Location:</span> Le Finesse Event Centre opposite EFAB Global Estate Utako, Abuja.<br/>
+                  <span className='details'>Location:</span> Le Finesse Event Centre opposite EFAB Global Estate, IDU, Abuja.<br/>
                   <span className='details'>Time:</span> 2pm.
                 </p>
               </div>

@@ -15,7 +15,7 @@ export const Home = () => {
       <div className="homeBanner">
         <div className="navBarContainer">
           <nav className="navBar">
-            <a href="/">Home</a>
+            <a href="/">#SKLOVESTORY</a>
           </nav>
           <hr />
         </div>

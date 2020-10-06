@@ -66,3 +66,11 @@
     font-family: "Raleway",sans-serif;
 }
 
+@media (max-width: 500px) {
+    .accommodationContainer h2 {
+        font-size: 25px;
+    }
+    /*.accommodationContainer img {*/
+    /*    width: 100%;*/
+    /*}*/
+}

@@ -83,27 +83,26 @@ hr {
 }
 
 .mainLine {
-  font-family: Raleway, sans-serif;
-  letter-spacing: 0;
-  font-size: 15px;
-  line-height: 1.7333em;
-  color: grey;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  text-align: left;
-  border: 0;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  outline: 0;
-  background: #dee0e0;
-  left: 50%;
-  margin-left: -1px;
-  position: absolute;
-  right: 50%;
-  top: 0;
-  width: 2px;
-  transition: opacity 0.55s cubic-bezier(0.23, 1, 0.32, 1), height 1.8s ease-out;
+    font-family: Raleway,sans-serif;
+    letter-spacing: 0;
+    font-size: 15px;
+    line-height: 1.7333em;
+    color: grey;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: 0;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    width: 2px;
+    transition: opacity 0.55s cubic-bezier(0.23, 1, 0.32, 1), height 1.8s ease-out;
   opacity: 1;
   height: 100%;
   background-color: #dee0e0;
@@ -296,7 +295,7 @@ hr {
 .text {
   font-family: Raleway, sans-serif;
   letter-spacing: 0;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7333em;
   color: grey;
   font-weight: 400;
@@ -444,7 +443,7 @@ hr {
 .text2 {
   font-family: Raleway, sans-serif;
   letter-spacing: 0;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7333em;
   color: grey;
   font-weight: 400;
@@ -595,7 +594,7 @@ hr {
 .text3 {
   font-family: Raleway, sans-serif;
   letter-spacing: 0;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7333em;
   color: grey;
   font-weight: 400;
@@ -739,7 +738,7 @@ hr {
 .text4 {
   font-family: Raleway, sans-serif;
   letter-spacing: 0;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.7333em;
   color: grey;
   font-weight: 400;
@@ -754,4 +753,37 @@ hr {
   margin-top: 25px;
   transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
   opacity: 1;
+}
+
+@media (max-width: 800px) {
+    .WeddingDetailsBody {
+        width: 100%;
+    }
+    .firstRow, .secondRow, .thirdRow, .fourthRow {
+        max-width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .weddingDetailsContainer h2 {
+        font-size: 30px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .weddingDetailsContainer h2 {
+        font-size: 25px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 12px;
+    }
+
+    .row1Images, .row2Images, .row3Image, .row4Images {
+        padding: 0 40px;
+    }
+
+    .rowTexts, .row2Texts, .row3Texts, .row4Texts {
+        padding: 0 13px;
+    }
 }

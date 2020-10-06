@@ -48,3 +48,9 @@
     font-weight: 400;
     font-family: "Raleway",sans-serif;
 }
+
+@media (max-width: 500px) {
+    .ourStoryContainer h2 {
+        font-size: 29px;
+    }
+}

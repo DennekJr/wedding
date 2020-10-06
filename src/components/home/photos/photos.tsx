@@ -1,56 +1,6 @@
 import React from "react";
 import "./photos.styles.css";
 
-// const tileData = [
-//        {
-//          img: image1,
-//          title: 'Image1',
-//          cols: 2,
-//          },
-//     {
-//          img: image2,
-//          title: 'Image2',
-//          cols: 2,
-//          },
-//     {
-//          img: image3,
-//          title: 'Image3',
-//          cols: 2,
-//          },
-//     {
-//          img: image4,
-//          title: 'Image4',
-//          cols: 2,
-//          },
-//     {
-//          img: image5,
-//          title: 'Image5',
-//          cols: 2,
-//          },
-//     {
-//          img: image6,
-//          title: 'Image6',
-//          cols: 2,
-//          },
-//
-//     ]
-
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     display: 'flex',
-//     // flexDirection: 'row',
-//     flexWrap: 'wrap',
-//     justifyContent: 'space-around',
-//     alignItems: 'center',
-//     overflow: 'hidden',
-//     // backgroundColor: theme.palette.background.paper,
-//   },
-//   gridList: {
-//     width: 'auto',
-//     height: 'auto',
-//   },
-// }));
-
 export const Photos = () => {
   // const classes = useStyles();
   return (
@@ -61,118 +11,49 @@ export const Photos = () => {
         <span>.</span>
         <hr />
       </div>
-      {/*<div className={classes.root}>*/}
-      {/*  <GridList className={classes.gridList} style={{height: '1006px'}}>*/}
-      {/*    {tileData.map((tile) => (*/}
-      {/*        <GridListTile key={tile.img} cols={0.6} style={{borderRadius: '10px', height: '100%'}}>*/}
-      {/*          <img src={tile.img} alt={tile.title} />*/}
-      {/*        </GridListTile>*/}
-      {/*    ))}*/}
-      {/*  </GridList>*/}
-      {/*</div>*/}
       <div className="imageGrid">
         <div className="gridRow">
           <div>
-            <img
-              src="/images/image1.jpg"
-              alt="Fourth Image"
-              width={400}
-              height={600}
-            />
+            <img src="/images/image1.jpg" alt="first" />
           </div>
           <div>
-            <img
-              src={"/images/image2.jpg"}
-              alt="Second Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image2.jpg"} alt="second" />
           </div>
           <div>
-            <img
-              src={"/images/image3.jpg"}
-              alt="Third Image"
-              width={400}
-              height={600}
-            />
-          </div>
-        </div>
-        <div className="gridRow">
-          <div>
-            <img
-              src={"/images/image4.jpg"}
-              alt="First Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image3.jpg"} alt="Third" />
           </div>
           <div>
-            <img
-              src={"/images/image5.jpg"}
-              alt="Second Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image4.jpg"} alt="fourth" />
           </div>
           <div>
-            <img
-              src={"/images/image6.jpg"}
-              alt="Sixth Image"
-              width={400}
-              height={600}
-            />
-          </div>
-        </div>
-        <div className="gridRow">
-          <div>
-            <img
-              src={"/images/image8.jpg"}
-              alt="Second Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image5.jpg"} alt="fifth" />
           </div>
           <div>
-            <img
-              src={"/images/image9.jpg"}
-              alt="Sixth Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image6.jpg"} alt="Sixth" />
           </div>
           <div>
-            <img
-              src={"/images/image10.jpg"}
-              alt="First Image"
-              width={400}
-              height={600}
-            />
-          </div>
-        </div>
-        <div className="gridRow">
-          <div>
-            <img
-              src={"/images/image15.jpg"}
-              alt="Fifth Image"
-              width={400}
-              height={600}
-            />
+            <img src={"/images/image8.jpg"} alt="eight" />
           </div>
           <div>
-            <img
-              src={"/images/image13.jpg"}
-              alt="Sixth Image"
-              width={400}
-              height={500}
-            />
+            <img src={"/images/image9.jpg"} alt="ninth" />
           </div>
           <div>
-            <img
-              src={"/images/image14.jpg"}
-              alt="Fifth Image"
-              width={400}
-              height={500}
-            />
+            <img src={"/images/image10.jpg"} alt="tenth" />
+          </div>
+          <div>
+            <img src={"/images/image15.jpg"} alt="fifteenth" />
+          </div>
+          <div>
+            <img src={"/images/image11.jpg"} alt="eleventh" />
+          </div>
+          <div>
+            <img src={"/images/image12.jpg"} alt="twelfth" />
+          </div>
+          <div>
+            <img src={"/images/image14.jpg"} alt="fourteenth" />
+          </div>
+          <div>
+            <img src={"/images/image13.jpg"} alt="thirteenth" />
           </div>
         </div>
       </div>

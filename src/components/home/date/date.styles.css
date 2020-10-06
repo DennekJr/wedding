@@ -26,3 +26,17 @@
     font-style: italic;
     line-height: 1.85em;
 }
+
+@media (max-width: 800px) {
+    .dateContainer h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 500px) {
+    .dateContainer h1 {
+        font-size: 25px;
+    }
+    .dateContainer span {
+        font-size: 20px;
+    }
+}

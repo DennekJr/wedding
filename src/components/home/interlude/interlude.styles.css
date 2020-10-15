@@ -5,11 +5,11 @@
     background-position: 50% 20%!important;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url('/images/lovestory.jpg');
+    background-image: url('https://res.cloudinary.com/stanjhae/image/upload/v1602697471/lovestory_ydukg7.jpg');
     padding-left: 11% !important;
 }
 .reception{
-    background-image: url('/images/reception.jpg');
+    background-image: url('https://res.cloudinary.com/stanjhae/image/upload/v1602759792/reception_f28bbx.jpg');
 }
 .returnContainer h2 {
     font-family: "Raleway", sans-serif;

@@ -33,7 +33,7 @@ export const Photos = () => {
               <div>
                 <Image publicId={image}>
                   <Transformation
-                    width="1000"
+                    width="400"
                     gravity="faces"
                     crop="fill"
                   />

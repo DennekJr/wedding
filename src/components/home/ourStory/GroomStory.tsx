@@ -45,7 +45,7 @@ export const GroomStory = () => {
           sumptuous plate of food (Wink Emoji) and thank you for accepting to
           deal with my flaws. I promise to love, Cherish and respect you forever
           and a day more!! <br />
-          <br />I LOVE YOU MY SUNRISE (MY SHIAN PEPE)
+          <br />I LOVE YOU MY SUNRISE (MY SHAN PEPE)
         </p>
       </div>
     </div>

@@ -14,7 +14,6 @@ export const Photos = () => {
     "image9_imm4qh",
     "image10_fmbj8q",
     "image11_lcbmzh",
-    "image12_ezreen",
     "image14_tgn2xq",
     "image13_be1fsj",
   ];

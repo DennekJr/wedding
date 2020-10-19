@@ -34,7 +34,7 @@ export const WeddingDetails = () => {
                   <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
                   <span className='details'>Location:</span> Ekklesiyar Yan'uwa A Nigeria (EYN) opposite CBN estate,
                   Utako, Abuja.<br/>
-                  <span className='details'>Time:</span> 12pm.
+                  <span className='details'>Time:</span> 11am.
                 </p>
               </div>
             </div>

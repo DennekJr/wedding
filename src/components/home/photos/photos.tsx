@@ -10,7 +10,7 @@ export const Photos = () => {
     "image4_cmjsln",
     "image5_wndujb",
     "image6_uutjce",
-    "image8_vps76g",
+    "https://res.cloudinary.com/stanjhae/image/upload/c_fill,g_faces,w_934/v1602697471/lovestory_ydukg7.jpg",
     "image9_imm4qh",
     "image10_fmbj8q",
     "image11_lcbmzh",

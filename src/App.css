@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+@media all and (max-width: 768px) {
+  .homeBanner, .dateContainer, .returnContainer {
+    background-attachment: initial;
+  }
+}

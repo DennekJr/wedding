@@ -1,7 +1,7 @@
 .photosContainer {
     padding-top: 82px !important;
     padding-bottom: 93px !important;
-    background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-3.jpg?id=10128") !important;
+    background-image: url("/images/background.jpg") !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,19 +51,35 @@
 }
 
 .imageGrid {
-    display: flex;
-    flex-direction: column;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
-    grid-gap: 10px;
-    /*grid-auto-rows: 200px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*!*grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));*!*/
+    /*grid-gap: 10px;*/
 }
 
 .imageGrid img {
-    width: 250px;
+    width: 400px;
 }
 
 .gridRow {
-    display: flex;
-    grid-gap: 40px;
-    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+    grid-auto-flow: dense;
+}
+
+@media (max-width: 1500px) {
+    .gridRow {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 1000px) {
+    .gridRow {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 500px) {
+    .imageGrid img {
+        width: 250px;
+    }
 }

@@ -52,33 +52,34 @@ hr {
 }
 
 .WeddingDetailsBody {
-    background-image: url(https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-2.jpg?id=10248) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    width: 83%;
+  background-image: url("/images/home-announcement.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 83%;
 }
 
 .workflow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin-top: 50px;
-    position: relative;
-    transition: opacity .55s cubic-bezier(.23,1,.32,1),transform .55s cubic-bezier(.23,1,.32,1);
-    transform: translateY(0);
-    opacity: 1;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin-top: 50px;
+  position: relative;
+  transition: opacity 0.55s cubic-bezier(0.23, 1, 0.32, 1),
+    transform 0.55s cubic-bezier(0.23, 1, 0.32, 1);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .mainLine {
@@ -95,655 +96,694 @@ hr {
     padding: 0;
     vertical-align: baseline;
     outline: 0;
-    background: #dee0e0;
     left: 50%;
     margin-left: -1px;
     position: absolute;
     right: 50%;
     top: 0;
     width: 2px;
-    transition: opacity .55s cubic-bezier(.23,1,.32,1),height 1.8s ease-out;
-    opacity: 1;
-    height: 100%;
-    background-color: #dee0e0;
+    transition: opacity 0.55s cubic-bezier(0.23, 1, 0.32, 1), height 1.8s ease-out;
+  opacity: 1;
+  height: 100%;
+  background-color: #dee0e0;
 }
 
 .firstRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-    position: relative;
-    padding-bottom: 70px;
-    overflow: hidden;
-    text-align: right;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  position: relative;
+  padding-bottom: 70px;
+  overflow: hidden;
+  text-align: right;
 }
 
 .line {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    background-color: #fff;
-    height: 100%;
-    left: 50%;
-    margin-left: -1px;
-    position: absolute;
-    width: 2px;
-    display: block;
-    top: 4px;
-    transform: translateY(-100%);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  background-color: #fff;
+  height: 100%;
+  left: 50%;
+  margin-left: -1px;
+  position: absolute;
+  width: 2px;
+  display: block;
+  top: 4px;
+  transform: translateY(-100%);
 }
 
 .innerFirstRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    position: relative;
-    width: 100%;
-    vertical-align: middle;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
-.row1Images{
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 70px;
-    text-align: left;
-    transition: transform .6s cubic-bezier(.18,.89,.32,1),opacity .3s ease-out;
-    opacity: 1;
-    transform: scale(1);
+.row1Images {
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 70px;
+  text-align: left;
+  transition: transform 0.6s cubic-bezier(0.18, 0.89, 0.32, 1),
+    opacity 0.3s ease-out;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .firstImg {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -webkit-box-direction: reverse;
-    text-align: left;
-    width: 119px;
-    max-width: 100%;
-    height: auto;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: reverse;
+  text-align: left;
+  width: 119px;
+  max-width: 100%;
+  height: auto;
 }
 
 .rowTexts {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 60px;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 60px;
 }
 
 .circle {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    transition: transform .6s cubic-bezier(.18,.89,.32,1.68) .5s;
-    transform: scale(1);
-    background: #fff;
-    border: 3px solid #dee0e0;
-    border-radius: 50%;
-    content: "";
-    height: 14px;
-    left: 50%;
-    margin: 0 0 0 -10px;
-    position: absolute;
-    top: 4px;
-    width: 14px;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  transition: transform 0.6s cubic-bezier(0.18, 0.89, 0.32, 1.68) 0.5s;
+  transform: scale(1);
+  background: #fff;
+  border: 3px solid #dee0e0;
+  border-radius: 50%;
+  content: "";
+  height: 14px;
+  left: 50%;
+  margin: 0 0 0 -10px;
+  position: absolute;
+  top: 4px;
+  width: 14px;
 }
 
 .firstRowText h4 {
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    font-family: Raleway,sans-serif;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    color: #4a3e5a;
-    line-height: 1.2em;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  font-family: Raleway, sans-serif;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  color: #4a3e5a;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .text {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin: 10px 0;
-    margin-top: 25px;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin: 10px 0;
+  margin-top: 25px;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
+.text .details,
+.text2 .details {
+  font-weight: bold;
+}
 .secondRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-    position: relative;
-    padding-bottom: 70px;
-    overflow: hidden;
-    text-align: left;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  position: relative;
+  padding-bottom: 70px;
+  overflow: hidden;
+  text-align: left;
 }
 
 .innerSecondRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    vertical-align: middle;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .row2Images {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 70px;
-    text-align: right;
-    transition: transform .6s cubic-bezier(.18,.89,.32,1),opacity .3s ease-out;
-    opacity: 1;
-    transform: scale(1);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 70px;
+  text-align: right;
+  transition: transform 0.6s cubic-bezier(0.18, 0.89, 0.32, 1),
+    opacity 0.3s ease-out;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .secondImg {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    width: 107px;
-    max-width: 100%;
-    height: auto;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  width: 107px;
+  max-width: 100%;
+  height: auto;
 }
 
 .row2Texts {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 60px;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 60px;
 }
 
 .row2Texts h4 {
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    font-family: Raleway,sans-serif;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    color: #4a3e5a;
-    line-height: 1.2em;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  color: #4a3e5a;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .text2 {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin: 10px 0;
-    margin-top: 25px;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin: 10px 0;
+  margin-top: 25px;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .thirdRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-    position: relative;
-    padding-bottom: 70px;
-    overflow: hidden;
-    text-align: right;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  position: relative;
+  padding-bottom: 70px;
+  overflow: hidden;
+  text-align: right;
 }
 
 .innerThirdRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    position: relative;
-    width: 100%;
-    vertical-align: middle;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .row3Image {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 70px;
-    text-align: left;
-    transition: transform .6s cubic-bezier(.18,.89,.32,1),opacity .3s ease-out;
-    opacity: 1;
-    transform: scale(1);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 70px;
+  text-align: left;
+  transition: transform 0.6s cubic-bezier(0.18, 0.89, 0.32, 1),
+    opacity 0.3s ease-out;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .thirdImage {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -webkit-box-direction: reverse;
-    text-align: left;
-    width: 125px;
-    max-width: 100%;
-    height: auto;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: reverse;
+  text-align: left;
+  width: 125px;
+  max-width: 100%;
+  height: auto;
 }
 
 .row3Texts {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 60px;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 60px;
 }
 
 .row3Texts h4 {
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    font-family: Raleway,sans-serif;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    color: #4a3e5a;
-    line-height: 1.2em;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  font-family: Raleway, sans-serif;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  color: #4a3e5a;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .text3 {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    -webkit-box-direction: reverse;
-    background: 0 0;
-    border: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin: 10px 0;
-    margin-top: 25px;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  -webkit-box-direction: reverse;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin: 10px 0;
+  margin-top: 25px;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .fourthRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 75%;
-    position: relative;
-    padding-bottom: 70px;
-    overflow: hidden;
-    text-align: left;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  position: relative;
+  padding-bottom: 70px;
+  overflow: hidden;
+  text-align: left;
 }
 
 .innerFourthRow {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    vertical-align: middle;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
 }
 
 .row4Images {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 70px;
-    text-align: right;
-    transition: transform .6s cubic-bezier(.18,.89,.32,1),opacity .3s ease-out;
-    opacity: 1;
-    transform: scale(1);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 70px;
+  text-align: right;
+  transition: transform 0.6s cubic-bezier(0.18, 0.89, 0.32, 1),
+    opacity 0.3s ease-out;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .fourthImage {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: right;
-    width: 117px;
-    max-width: 100%;
-    height: auto;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
+  width: 117px;
+  max-width: 100%;
+  height: auto;
 }
 
 .row4Texts {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    vertical-align: baseline;
-    outline: 0;
-    float: left;
-    margin: 0;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 60px;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 15px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+  float: left;
+  margin: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 60px;
 }
 
 .row4Texts h4 {
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    font-family: Raleway,sans-serif;
-    background: 0 0;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    color: #4a3e5a;
-    line-height: 1.2em;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: .03em;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  font-family: Raleway, sans-serif;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  color: #4a3e5a;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
 .text4 {
-    font-family: Raleway,sans-serif;
-    letter-spacing: 0;
-    font-size: 15px;
-    line-height: 1.7333em;
-    color: grey;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    text-align: left;
-    background: 0 0;
-    border: 0;
-    padding: 0;
-    vertical-align: baseline;
-    outline: 0;
-    margin: 10px 0;
-    margin-top: 25px;
-    transition: opacity .5s cubic-bezier(.22,.61,.36,1) .2s;
-    opacity: 1;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0;
+  font-size: 14px;
+  line-height: 1.7333em;
+  color: grey;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  background: 0 0;
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+  outline: 0;
+  margin: 10px 0;
+  margin-top: 25px;
+  transition: opacity 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) 0.2s;
+  opacity: 1;
 }
 
+@media (max-width: 800px) {
+    .WeddingDetailsBody {
+        width: 100%;
+    }
+    .firstRow, .secondRow, .thirdRow, .fourthRow {
+        max-width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .weddingDetailsContainer h2 {
+        font-size: 30px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .weddingDetailsContainer h2 {
+        font-size: 25px;
+    }
+    .weddingDetailsHeader h4 {
+        font-size: 12px;
+    }
+
+    .row1Images, .row2Images, .row3Image, .row4Images {
+        padding: 0 40px;
+    }
+
+    .rowTexts, .row2Texts, .row3Texts, .row4Texts {
+        padding: 0 13px;
+    }
+}

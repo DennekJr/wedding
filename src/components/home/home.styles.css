@@ -4,12 +4,12 @@
 }
 
 .homeBanner {
-  /*min-height: 100vh;*/
-  background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-img-1.jpg");
+  background-image: url("/images/banner.jpg");
   height: 1061px;
-  background-position: 50% 0;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .navBarContainer hr {
@@ -29,7 +29,7 @@
 
 .homeBannerText {
   width: 100%;
-  height: 60%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,24 +38,30 @@
 
 .homeBannerText h1 {
   line-height: 97px;
-  font-weight: 300;
-  font-size: 87px;
+  font-weight: bold;
+  font-size: 70px;
   font-family: "Raleway", sans-serif;
   letter-spacing: 6px;
   text-transform: uppercase;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: #fff;
+  padding: 20px;
+  background-color: rgba(9,11,51, 0.7);
+  border-radius: 10px;
 }
 
 .homeBannerText h4 {
   line-height: 42px;
   font-family: "Playfair Display", serif;
   font-style: italic;
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: bold;
   letter-spacing: 3px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(9,11,51, 0.7);
+  border-radius: 10px;
 }
 
 .divider {
@@ -71,4 +77,18 @@
 .divider span {
   color: rgb(255, 255, 255);
   font-size: 50px;
+}
+
+@media (max-width: 800px) {
+  .homeBannerText h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 500px) {
+  .homeBannerText h1 {
+    font-size: 35px;
+  }
+  .homeBannerText h4 {
+    font-size: 30px;
+  }
 }

@@ -3,9 +3,9 @@ import './reception.styles.css';
 
 export const Reception = () => {
     return (
-        <div className="returnContainer">
+        <div className="returnContainer reception">
             <h2>Reception</h2>
-            <h4>Swptember 4th, 2018</h4>
+            <h4>December 12th, 2020</h4>
         </div>
     )
 }

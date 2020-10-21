@@ -4,7 +4,7 @@ import './footer.styles.css';
 export const Footer = () => {
     return (
         <div className="footerContainer">
-            <p>Footer Vibes!</p>
+            <p className="coupleName">#SKLOVESTORY</p>
         </div>
     )
 }

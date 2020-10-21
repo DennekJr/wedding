@@ -1,9 +1,30 @@
 .footerContainer {
-    padding-top: 82px !important;
-    padding-bottom: 93px !important;
+    padding-top: 22px !important;
+    padding-bottom: 23px !important;
+    padding-left: 30px !important;
     display: block;
     background-color: #3a3740;
     position: relative;
     background-position: center center;
     background-size: cover;
+}
+
+.coupleName {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+    line-height: 1.85em;
+}
+
+
+@media (max-width: 800px) {
+    .copyRight {
+        /*font-size: 30px;*/
+    }
+}
+@media (max-width: 400px) {
+    .copyRight {
+        font-size: 10px;
+    }
 }

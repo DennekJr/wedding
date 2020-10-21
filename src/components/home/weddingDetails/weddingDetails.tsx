@@ -11,36 +11,30 @@ export const WeddingDetails = () => {
           <span>.</span>
           <hr />
         </div>
-        <h4>
-          Lorem ipsum dolor sit amet, consectetuer gravida nibh vel velit auctor
-          aliquet. Aenean sollicitudin, lorem quis bibendum auci elit
-          <br /> consequat ipsutis sem niuis sed odio sit amet
-        </h4>
       </div>
       <div className="WeddingDetailsBody">
         <div className="workflow">
-          <span
-    className="mainLine"
-    style={{backgroundColor: "#dee0e0"}}
-    />
+          <span className="mainLine" style={{ backgroundColor: "#dee0e0" }} />
           <div className="firstRow">
-            <span className="line"/>
+            <span className="line" />
             <div className="innerFirstRow">
               <div className="row1Images">
                 <img
                   width="119"
                   height="118"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-1.png"
+                  src="images/home-announcement-icon-1.png"
                   className="firstImg"
                   alt="a"
                 />
               </div>
               <div className="rowTexts">
-                <span className="circle"/>
-                <h4>Ceremony</h4>
+                <span className="circle" />
+                <h4>CHURCH SERVICE</h4>
                 <p className="text">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
+                  <span className='details'>Location:</span> Ekklesiyar Yan'uwa A Nigeria (EYN) opposite CBN estate,
+                  Utako, Abuja.<br/>
+                  <span className='details'>Time:</span> 11am.
                 </p>
               </div>
             </div>
@@ -52,17 +46,18 @@ export const WeddingDetails = () => {
                 <img
                   width="107"
                   height="138"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-2.png"
+                  src="images/home-announcement-icon-2.png"
                   className="secondImg"
                   alt="a"
                 />
               </div>
               <div className="row2Texts">
                 <span className="circle"></span>
-                <h4>Toast &amp; Dinner</h4>
+                <h4>RECEPTION</h4>
                 <p className="text2">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  <span className='details'>Date:</span> Saturday, December 12th 2020 <br/>
+                  <span className='details'>Location:</span> Le Finesse Event Centre opposite EFAB Global Estate, IDU, Abuja.<br/>
+                  <span className='details'>Time:</span> 2pm.
                 </p>
               </div>
             </div>
@@ -74,17 +69,16 @@ export const WeddingDetails = () => {
                 <img
                   width="125"
                   height="116"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-3.png"
+                  src="images/home-announcement-icon-3.png"
                   className="thirdImage"
                   alt="a"
                 />
               </div>
               <div className="row3Texts">
                 <span className="circle"></span>
-                <h4>Wedding Cake</h4>
+                <h4>COLORS</h4>
                 <p className="text3">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum
+                  Peach, Burgundy and Navy Blue.
                 </p>
               </div>
             </div>
@@ -96,17 +90,16 @@ export const WeddingDetails = () => {
                 <img
                   width="117"
                   height="80"
-                  src="https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-icon-4.png"
+                  src="images/home-announcement-icon-4.png"
                   className="fourthImage"
                   alt="a"
                 />
               </div>
               <div className="row4Texts">
                 <span className="circle"></span>
-                <h4>Photography</h4>
+                <h4>RSVP</h4>
                 <p className="text4">
-                  Lorem ipsum dolor sit amet, consectetuer gravida nibh vel
-                  velit auctor aliqueenean sollicitudin, lorem quis bibendum.
+                  08161266200, 07068347701
                 </p>
               </div>
             </div>

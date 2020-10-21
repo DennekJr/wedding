@@ -5,7 +5,7 @@
     background-position: 50% 20%!important;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("https://fleur.qodeinteractive.com/wp-content/uploads/2017/02/home-announcment-parallax-2.jpg");
+    background-image: url('/images/reception.jpg');
     padding-left: 11% !important;
 }
 
@@ -22,11 +22,22 @@
 }
 
 .returnContainer h4 {
-    font-size: 18px;
+    font-size: 30px;
     font-family: "Playfair Display",serif;
     font-style: italic;
     line-height: 1.85em;
     margin: 0;
     color: #ffffff;
     text-align: left;
+}
+
+@media (max-width: 800px) {
+    .returnContainer h2 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 400px) {
+    .returnContainer h2 {
+        font-size: 35px;
+    }
 }
